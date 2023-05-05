@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #script to display socket with their PID
-netstat -Ip
+netstat -lp
