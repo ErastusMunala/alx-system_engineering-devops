@@ -16,6 +16,7 @@ backend web_servers
         server 117170-web-01 52.87.255.233:80 check
 	server 117170-web-02 100.25.142.86:80 check
 ' >> /etc/haproxy/haproxy.cfg
+sudo chmod +x /etc/init.d/haproxy
 
 # Restart HAproxy service
 service haproxy restart
